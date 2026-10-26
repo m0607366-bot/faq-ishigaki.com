@@ -1,0 +1,9 @@
+{
+	"$schema": "../node_modules/wrangler/config-schema.json",
+	// www.faq-ishigaki.com に来た人を faq-ishigaki.com の同じページへ転送するだけのもの
+	"name": "www-faq-ishigaki-com",
+	"main": "index.js",
+	"compatibility_date": "2026-02-24",
+	"workers_dev": false,
+	"routes": [{ "pattern": "www.faq-ishigaki.com", "custom_domain": true }]
+}
